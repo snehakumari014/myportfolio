@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha Kumari | Electronics & Software Engineering Portfolio</title>
+    <!-- Custom CSS Modules -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Full Screen Premium Loader -->
+    <div id="page-loader" class="loader-container">
+        <div class="spinner"></div>
+        <div class="loader-text">INITIALIZING CORE ARCHITECTURE...</div>
+    </div>
+
+    <!-- Header Navigation Grid -->
+    <header class="header-main">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">Sneha<span class="accent-dot">.</span>K</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#education" class="nav-item">Education</a></li>
+                <li><a href="#experience" class="nav-item">Experience</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="theme-btn" aria-label="Toggle Interface Theme">🌓</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Dynamic Landing Stage -->
+        <section id="hero" class="hero-section">
+            <h1 class="hero-title">Hi, I'm <span class="highlight-text">Sneha Kumari</span></h1>
+            <h2 class="hero-subtitle"><span id="typewriter-text" class="typing-container"></span></h2>
+            <p class="hero-description text-reveal">
+                Bridging the interface between robust hardware engineering and modern software architectures. Driven by rigorous problem-solving, clean code principles, and emerging technologies.
+            </p>
+            <div class="hero-contact-grid">
+                <span class="contact-tag">📍 Jamshedpur, India</span>
+                <span class="contact-tag">📧 <a href="mailto:snehakumaripandey14@gmail.com">snehakumaripandey14@gmail.com</a></span>
+                <span class="contact-tag">📞 +91-9199384074</span>
+                <span class="contact-tag">🔗 <a href="https://www.linkedin.com/in/sneha-kumari48" target="_blank">LinkedIn</a></span>
+            </div>
+            <a href="#contact" class="btn btn-primary interactive-trigger">Initiate Connection</a>
+        </section>
+
+        <!-- About Me Professional Focus Section -->
+        <section id="about" class="reveal-element">
+            <h2 class="section-title">Professional Profile</h2>
+            <div class="card about-grid">
+                <div class="profile-card-sidebar">
+                    <div class="profile-avatar-frame">
+                        <!-- Relocated to assets/images folder structure -->
+                        <img src="assets/images/image_0.png" alt="Sneha Kumari Engineering Portrait">
+                    </div>
+                    <button class="btn btn-outline admin-portal-btn" onclick="window.portfolio.toggleAdminPortal()">🔒 Secure Terminal Access</button>
+                </div>
+                <div class="about-narrative">
+                    <p class="narrative-lead">
+                        I am an Electronics and Communication Engineering student with a deep-seated specialization in system-level software engineering, algorithmic optimizations, and full-stack implementation models. 
+                    </p>
+                    <p class="narrative-body">
+                        My academic journey bridges the divide between physical hardware realities and abstract computational logic. Grounded in computational fundamentals like Object-Oriented Programming (OOP) and advanced Data Structures, I cultivate a solutions-driven mindset. I thrive on translating intricate engineering concepts into functional, scalable, and impact-driven technology infrastructure.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Embedded Cryptographic Local Admin Terminal -->
+            <div id="admin-portal-box" class="admin-terminal-card scroll-reveal">
+                <h4 class="terminal-header">[SECURE TERMINAL AUTHENTICATION MATRIX]</h4>
+                
+                <div id="admin-auth-view" class="admin-auth-row">
+                    <input type="password" id="admin-pass-input" placeholder="Enter Authentication Cryptographic Key..." class="terminal-input">
+                    <button class="btn btn-primary terminal-btn" onclick="window.portfolio.validateAdminLogin()">Verify Token</button>
+                </div>
+
+                <div id="admin-dashboard-view" class="terminal-dashboard-main">
+                    <div class="terminal-control-bar">
+                        <span class="terminal-status-text">✓ Handshake Established. Secure Memory Buffers Online:</span>
+                        <div class="terminal-actions">
+                            <button class="btn btn-danger-sm" onclick="window.portfolio.clearMessageStore()">Scrub Cache</button>
+                            <button class="btn btn-outline-sm" onclick="window.portfolio.lockTerminal()">Lock Console</button>
+                        </div>
+                    </div>
+                    <div id="admin-terminal-log" class="terminal-body-log">Awaiting socket mapping data...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Foundations Section -->
+        <section id="education" class="reveal-element">
+            <h2 class="section-title">Academic Milestones</h2>
+            <div class="timeline-wrapper">
+                <div class="card timeline-card">
+                    <div class="timeline-meta">
+                        <span class="timeline-duration">2024 — 2027</span>
+                        <span class="timeline-badge-inst">University Degree</span>
+                    </div>
+                    <h3 class="timeline-heading">B.Tech in Electronics and Communication Engineering (ECE)</h3>
+                    <p class="timeline-institution">C.V. Raman Global University, Bhubaneswar</p>
+                    <p class="timeline-details">Specialized training in complex electronics systems infrastructure, hardware programming abstractions, embedded systems logic, and state-of-the-art communication network frameworks.</p>
+                </div>
+                <div class="card timeline-card">
+                    <div class="timeline-meta">
+                        <span class="timeline-duration">2021 — 2024</span>
+                        <span class="timeline-badge-inst">Professional Diploma</span>
+                    </div>
+                    <h3 class="timeline-heading">Diploma in Mechatronics Engineering</h3>
+                    <p class="timeline-institution">Tata Steel Technical Institute</p>
+                    <p class="timeline-details">Graduated with a specialized multidisciplinary focus synthesizing microelectronics, automated mechanical drives, pneumatic systems, logic design, and high-reliability industrial robotics control.</p>
+                </div>
+                <div class="card timeline-card">
+                    <div class="timeline-meta">
+                        <span class="timeline-duration">Graduated 2021</span>
+                        <span class="timeline-badge-inst">Secondary Education</span>
+                    </div>
+                    <h3 class="timeline-heading">Secondary School Matriculation (10th Grade Standard)</h3>
+                    <p class="timeline-institution">Kasidih High School (CBSE Board)</p>
+                    <p class="timeline-details">Solidified core foundational excellence across advanced mathematics, algorithmic logic, physics, and empirical laboratory methods.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Milestones History Section -->
+        <section id="experience" class="reveal-element">
+            <h2 class="section-title">Professional Experience & Bootcamps</h2>
+            <div class="grid grid-two-col">
+                <div class="experience-column">
+                    <h3 class="sub-column-title">Industrial Internships</h3>
+                    
+                    <div class="timeline-block">
+                        <div class="block-time">March 2026 — April 2026</div>
+                        <h4 class="block-title">Java Development Intern</h4>
+                        <div class="block-company">Pinnacle Labs</div>
+                        <p class="block-summary">
+                            Selected for an intensive 4-week virtual development sprint focusing on backend architectures and scalable Java computational logic loops.
+                        </p>
+                        <ul class="block-bullets">
+                            <li>Engineered highly optimized project deliverables using foundational Java environments.</li>
+                            <li>Applied strict object-oriented program formatting constraints to eliminate structural redundancies.</li>
+                            <li>Implemented test patterns to isolate, debug, and optimize execution speeds for computational tasks.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-block">
+                        <div class="block-time">April 2024 — June 2024</div>
+                        <h4 class="block-title">Vocational Training Technical Intern</h4>
+                        <div class="block-company">TATA STEEL LTD., Jamshedpur</div>
+                        <p class="block-summary">
+                            Executed an extensive industrial engineering study in heavy metal manufacturing automated lines.
+                        </p>
+                        <ul class="block-bullets">
+                            <li> Authored the technical project: <strong>"Reliability Study of Critical Weighment System."</strong></li>
+                            <li>Analyzed electrical instrumentation errors to maximize calibration accuracy profiles across harsh manufacturing points.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bootcamp-column">
+                    <h3 class="sub-column-title">Advanced Programming Accelerators</h3>
+                    <div class="card bootcamp-card-stack">
+                        <div class="bootcamp-item">
+                            <span class="bootcamp-org">AlgoUniversity</span>
+                            <h4 class="bootcamp-name">Graph Theory & Advanced Algorithms Camp</h4>
+                            <p class="bootcamp-desc">Mastered complex graph traversal models, dynamic vertex clustering logic, shortest-path calculation configurations, and rigorous complexity runtime analysis ($O(V + E)$ bounds).</p>
+                        </div>
+                        <div class="bootcamp-item">
+                            <span class="bootcamp-org">NPTEL AICTE</span>
+                            <h4 class="bootcamp-name">Innovation by Design | National Certification</h4>
+                            <p class="bootcamp-desc">Acquired formal engineering methodologies for systematic iterative prototyping, user-centric human factor validation, and structured technological scaling matrix analysis.</p>
+                        </div>
+                        <div class="bootcamp-item">
+                            <span class="bootcamp-org">Web Engineering Labs</span>
+                            <h4 class="bootcamp-name">HTML5 & CSS3 Full-Stack Bootcamp</h4>
+                            <p class="bootcamp-desc">Deep immersion into structural grid layouts, fluid semantic trees, cross-platform media queries, rendering engine constraints, and modular web styling rules.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Sandbox Projects Module Section -->
+        <section id="projects" class="reveal-element">
+            <h2 class="section-title">Technical Project Ecosystem</h2>
+            <div class="grid grid-two-col project-deck">
+                <div class="card project-card">
+                    <div class="project-header-info">
+                        <h3 class="project-name">E-Commerce Core Replication: Amazon Clone</h3>
+                        <p class="project-brief text-muted">
+                            A performance-driven structural frontend application replicating multi-tier interface grids and dynamic category layouts matching the Amazon system.
+                        </p>
+                    </div>
+                    <div class="project-footer-meta">
+                        <div class="pill-rack">
+                            <span class="badge-skill">HTML5 Semantic</span>
+                            <span class="badge-skill">CSS3 Layouts</span>
+                            <span class="badge-skill">JavaScript ES6</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary btn-sm animate-click">Inspect Architecture</a>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header-info">
+                        <h3 class="project-name">Home Safety Surveillance Robotic Asset</h3>
+                        <p class="project-brief text-muted">
+                            An advanced embedded mechatronics system engineered to drive automated local consumer environment mapping and safety-critical hazard avoidance.
+                        </p>
+                        <p class="project-expanded-text">
+                            Integrated specialized distance arrays, infrared sensors, and synchronized algorithmic drive steering arrays running on top of Microchip computing logic architectures.
+                        </p>
+                    </div>
+                    <div class="project-footer-meta">
+                        <div class="pill-rack">
+                            <span class="badge-skill">Arduino Nano</span>
+                            <span class="badge-skill">Sensor Arrays</span>
+                            <span class="badge-skill">Embedded Logic</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary btn-sm animate-click">Examine Circuit Model</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Task Planner Demonstration Application Block -->
+            <div class="todo-dashboard-container card reveal-element">
+                <h3 class="todo-dashboard-title">Live Application Showcase: Persistent Task Planner</h3>
+                <p class="todo-dashboard-subtitle text-muted">A live functional module validating state persistence pipelines, responsive DOM updates, and client memory operations.</p>
+                <div class="todo-input-row">
+                    <input type="text" id="todo-input" placeholder="Queue an objective engineering node..." class="todo-field">
+                    <button class="btn btn-primary todo-btn" id="todo-add-action">Queue Node</button>
+                </div>
+                <ul class="todo-list-tree" id="todo-list-target"></ul>
+                <div class="todo-status-footer">
+                    <span id="todo-count-pending" class="metrics-text">0 tasks pending</span>
+                    <button class="btn btn-outline-sm reset-btn-theme" id="todo-clear-completed">Prune Completed Tasks</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Skill Abstractions Grid Section -->
+        <section id="skills" class="reveal-element">
+            <h2 class="section-title">Engineering Core Capabilities</h2>
+            <div class="grid grid-two-col">
+                <div class="card skill-matrix-card">
+                    <div class="skill-group-module">
+                        <h3 class="skill-group-title">Software Development Stack</h3>
+                        <div class="pill-rack">
+                            <span class="skill-badge-node">Java (Core & OOP)</span>
+                            <span class="skill-badge-node">HTML5 Semantic Web</span>
+                            <span class="skill-badge-node">CSS3 Engine Architecture</span>
+                            <span class="skill-badge-node">JavaScript ES6+ Standard</span>
+                            <span class="skill-badge-node">MySQL Database Engine</span>
+                        </div>
+                    </div>
+                    <div class="skill-group-module" style="margin-top: 25px; margin-bottom: 0;">
+                        <h3>Academic Hardware & Core Fields</h3>
+                        <div class="pill-rack">
+                            <span class="skill-badge-node">Digital Systems Logic</span>
+                            <span class="skill-badge-node">Analog Circuitry</span>
+                            <span class="skill-badge-node">Operating System Architecture</span>
+                            <span class="skill-badge-node">VLSI Chip Design Topology</span>
+                            <span class="skill-badge-node">Object Oriented Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card extracurricular-showcase-card">
+                    <h3 class="extracurricular-title">Strategic Involvement Metrics</h3>
+                    <ul class="extracurricular-list">
+                        <li>🎯 <strong>Smart India Hackathon:</strong> Competitive participant in the national technology hackathon solving complex public sector problem statements under strict time and resource constraints.</li>
+                        <li>🤖 <strong>Official Robotics Club Operations:</strong> Active technician contributing to hardware design, sensor interfacing, and multi-motor speed coordination mapping projects.</li>
+                        <li>🗣️ <strong>Multilingual Communications:</strong> Highly articulate conversational fluency in English and Hindi across academic and cooperative tech settings.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Connection Hub Form Section -->
+        <section id="contact" class="reveal-element">
+            <h2 class="section-title">Secure Connection Hub</h2>
+            <form id="contact-form" class="contact-form-layout" onsubmit="window.portfolio.submitContactForm(event)">
+                <div class="form-group-block">
+                    <label for="name" class="field-label">Name</label>
+                    <input type="text" id="name" required placeholder="Enter professional entity/your name..." class="form-field-input">
+                </div>
+                <div class="form-group-block">
+                    <label for="email" class="field-label">Email Node</label>
+                    <input type="email" id="email" required placeholder="entity@domain.com" class="form-field-input">
+                </div>
+                <div class="form-group-block">
+                    <label for="message" class="field-label">Message Payload</label>
+                    <textarea id="message" rows="5" required placeholder="Write clear communication matrix requirements here..." class="form-field-textarea"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary form-submit-cta" id="submit-btn">Transmit Stream</button>
+                <div id="form-success" class="form-alert-banner">🎉 Packet Transmitted! Data payload securely routed into client localStorage database buffer matrix.</div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-distributed">
+        <p class="copyright-text">&copy; 2026 Sneha Kumari. All engineering parameters map safely. | Built with Semantic HTML5, CSS3 Grid Architectures, & Animated JS Canvas Models</p>
+    </footer>
+
+    <!-- Modular JS Engine Injection -->
+    <script src="js/app.js"></script>
+</body>
+</html>
